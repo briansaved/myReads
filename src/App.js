@@ -2,6 +2,7 @@ import React from "react";
 import * as BooksAPI from "./BooksAPI";
 import { Route, Link } from "react-router-dom";
 import "./App.css";
+import Search from "./Search";
 
 class BooksApp extends React.Component {
   state = {
